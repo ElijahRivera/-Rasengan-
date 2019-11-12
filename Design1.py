@@ -6,17 +6,18 @@ for times in range(50):
     bob.color(c)
     jump(25,100)
     Rasengan()
-    bob.left(800)
-    bob.forward(100)
+    bob.left(900)
+    bob.forward(300)
 
 for times in range(25):
-    c = (0, 104, 135)
+    c = (0,104,135)
     bob.color(c)
     jump(25,100)
     Rasengan()
     bob.left(800)
-    bob.forward(100)
+    bob.forward(200)
 bob.tracer(True)
+
 
 
 
